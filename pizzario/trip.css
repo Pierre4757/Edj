@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Images/restaurant-alcazar-paris.jpg);
+    background-size: cover;
+}
+h1{
+    margin-top: 170px;
+    font-family:'Monsterrat',sans-serif;
+    text-align: center;
+    color:goldenrod;
+}
+h2{
+    margin-top: 15px;
+    font-family:'Monsterrat',sans-serif;
+    text-align: center;
+    color:goldenrod;
+}
+h4{
+    color: red;
+}
+
+nav {
+        width: 100%;
+        background-color: seagreen;
+
+
+        }
+        nav>ul {
+            margin: 0px ;
+            padding: 0px ;
+            }
+    
+nav > ul::after {
+            content:"" ;
+            display:block;
+            clear: both;
+            
+            }
+
+nav> ul > li {
+    margin-top: 40px;
+    padding-right: 40PX;
+    float: right;
+
+    position: relative;
+
+    }
+
+
+    nav > ul> li > a {
+        padding: 15px 20px;
+        color: black;
+    }
+
+nav li {
+list-style-type: none;
+}
+.sous{
+    display: none;
+    }
+
+nav a {
+        display: inline-block;
+        text-decoration: none;
+    }
+nav li:hover .sous {
+    display: inline-block;
+    position: Absolute;
+    top: 100%;
+    left: 30px;
+    padding: 60px;
+    z-index: 1000;
+}
+.sous {
+    max-width: 1000px;
+    margin: auto;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family:'Monsterrat',sans-serif;
+}
+input {
+    width: 150%;
+    margin: 10px 10;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding: 10px 20;
+    font-size: 12px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px white solid;
+    cursor: pointer;
+}
+.sous li a {
+    border-bottom: 1px solid grey;
+
+}
+.sous li a {
+    padding: 15px 30px;
+    fron-size: 13px;
+    color: black;
+    width: 270px;
+}
+.menu:hover {
+    border-top: 5px solid olive;
+    background-color: black;
+}
+.contact:hove r{
+    border-top: 5px solid olive;
+    background-color: lightgreen;
+}
+.a propos de nous:hover {
+    border-top: 5px solid olive;
+    color: black;
+    background-color: lightgreen;
+}
+
+.button{
+    border: 2px solid black;
+    cursor: pointer;
+    width: 80%;
+
+}
+
+.fig{
+    position: absolute;
+}
+.main{
+	margin: 20px;
+	margin-top: 80px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+ .cards{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+ .cards .card{
+ margin-right: 20px;
+ cursor: pointer;
+
+ }
+ .cards .card img{
+ 	width: 350px;
+ }
+
+ }.cards .cards .card-header{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ }
+ .cards .card.card-body{
+ 	margin-top: -10px;
+
+ }
